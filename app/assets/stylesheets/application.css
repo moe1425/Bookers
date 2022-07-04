@@ -19,9 +19,15 @@ body {
   background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 13px;p
   line-height: 18px;
   margin: 33px;
+}
+
+td {
+  padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 p, ol, ul, td {
@@ -57,6 +63,11 @@ label {
   background-color: #f0f0f0;
 }
 
+#error_explanation ul li {
+    font-size: 12px;
+    list-style: square;
+}
+
 #error_explanation h2 {
   text-align: left;
   font-weight: bold;
@@ -72,8 +83,6 @@ label {
   margin-bottom: 10px;
 }
 
-.field_with_errors {
-    padding: 2px;
-    background-color: red;
-    display: table;
+#notice {
+  color: green;
 }
