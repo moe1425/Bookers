@@ -39,3 +39,7 @@ a:hover {
   color: white;
   background-color: black;
 }
+
+th {
+  padding-bottom: 5px;
+}
